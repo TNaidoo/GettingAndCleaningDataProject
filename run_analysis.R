@@ -69,3 +69,5 @@ colnames(tidyDataset) <- colnames(tidyDataset) %>%
 
 tidyData2 <- melt(tidyDataset, id=c("subject", "activity"), measure.vars=names(tidyDataset)[3:length(names(tidyDataset))])
 tidyData2 <- dcast(tidyData2, subject + activity ~ variable, mean)
+
+write.table(tidyData2, file="tidy_data.txt", row.names=FALSE)
