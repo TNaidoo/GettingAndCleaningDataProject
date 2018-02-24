@@ -1,15 +1,15 @@
 # GettingAndCleaningDataProject
 Project for the Coursera Getting and Cleaning Data course
 ## Introduction
-The data used in this project was based on human activity recognition using smartphones. The experiment was carried out with 30 volunteers between the ages of 19 and 48 years old. Each volunteer performed six activities whilst wearing a smartphone: walking, walking upstairs, walking downstairs, sitting, standing, and laying). The data has been supplied courtesy of: \n
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. \n
-Smartlab - Non Linear Complex Systems Laboratory \n
-DITEN - Università degli Studi di Genova. \n
-Via Opera Pia 11A, I-16145, Genoa, Italy. \n
-activityrecognition@smartlab.ws \n
-www.smartlab.ws
+The data used in this project was based on human activity recognition using smartphones. The experiment was carried out with 30 volunteers between the ages of 19 and 48 years old. Each volunteer performed six activities whilst wearing a smartphone: walking, walking upstairs, walking downstairs, sitting, standing, and laying). The data has been supplied courtesy of:  
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
+Smartlab - Non Linear Complex Systems Laboratory  
+DITEN - Università degli Studi di Genova.  
+Via Opera Pia 11A, I-16145, Genoa, Italy.  
+activityrecognition@smartlab.ws  
+www.smartlab.ws  
 ## Requirements
-Please ensure that the relevant packages are installed: dplyr, tidyr, reshape2, stringr \n
+Please ensure that the relevant packages are installed: dplyr, tidyr, reshape2, stringr  
 The data should be unzipped to a folder called "UCI HAR Dataset"
 ## References
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
