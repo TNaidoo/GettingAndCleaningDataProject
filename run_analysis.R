@@ -21,7 +21,7 @@ stest <- loadData("./UCI HAR Dataset/test/subject_test.txt")
 test <- cbind(stest, ytest, xtest)
 rm(xtest, ytest, stest)
 
-# Load the Test Data
+# Load the Training Data
 xtrain <- loadData("./UCI HAR Dataset/train/X_train.txt")
 ytrain <- loadData("./UCI HAR Dataset/train/y_train.txt")
 strain <- loadData("./UCI HAR Dataset/train/subject_train.txt")
@@ -46,7 +46,7 @@ rm(allData, selectCol)
 activities <- loadData("./UCI HAR Dataset/activity_labels.txt")
 activities[,2] <- gsub("_","", tolower(activities[,2]))
 
-# Add descriptive names for Activity
+# Add descriptive names for Activity - convert Activity to Factor with levels
 tidyDataset$Activity <- as.factor(tidyDataset$Activity)
 levels(tidyDataset$Activity) <- activities[,2]
 rm(activities)
